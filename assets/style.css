@@ -1,0 +1,16 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --almond: #f2d6d0;
+    --matisse: #1a4d96;
+    --pharlap: #a68987;
+    --eden: #105c64;
+}
+
+body {
+    font-family: 'Palatino', Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: var(--eden);
+    color: var(--almond)
+}
