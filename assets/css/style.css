@@ -1,0 +1,138 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+/* stock images sourced from https://www.stockvault.net/ */
+:root {
+    --almond: #f2d6d0;
+    --matisse: #1a4d96;
+    --pharlap: #a68987;
+    --eden: #105c64;
+}
+
+body {
+    font-family: 'Palatino', Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding-top: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2 {
+    background-color: var(--eden);
+    color: var(--almond);
+    line-height: 2.5;
+}
+
+#name-header {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 2;
+    font-weight: lighter;
+}
+
+nav {
+    display: block;
+    line-height: 1.75;
+    background-color: var(--pharlap);
+}
+
+nav, h2 {
+    border: 1px solid var(--matisse)
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.info-links {
+    color: var(--eden);
+    font-weight: bold;
+}
+
+.contact-links {
+
+}
+
+#aurora {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://www.stockvault.net/data/2013/12/02/151491/preview16.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#about-me {
+    line-height: 0;
+}
+
+#p-about-me {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 3%;
+    font-size: 15px;
+    color: var(--matisse);
+}
+
+#headshot {
+    max-height: 200px;
+    border: 3px solid var(--matisse);
+}
+
+main {
+
+  }
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    border: 5px solid var(--pharlap);
+}
+
+.work {
+    display:flex;
+    justify-self: flex-end;
+}
+
+#horiseon-marketing-agency {
+    display: inline-block;
+    height: max-content;
+}
+
+#horiseon-marketing-agency > a > img {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+article > img {
+    max-height:35%;
+    max-width: 35%;
+    border: 1.5px solid var(--almond);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 2.5%;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+footer {
+    text-align: center;
+}
