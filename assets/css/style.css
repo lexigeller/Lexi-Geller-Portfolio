@@ -53,8 +53,15 @@ ul {
     font-weight: bold;
 }
 
-.contact-links {
+#contact-me {
 
+}
+
+.contact-links {
+    padding: 2.5%;
+    border: 2px solid var(--almond);
+    color: var(--eden);
+    font-weight: bolder;
 }
 
 #aurora {
@@ -83,13 +90,12 @@ ul {
 }
 
 main {
-
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
 
 article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     max-width: fit-content;
     border: 5px solid var(--pharlap);
 }
@@ -100,7 +106,6 @@ article {
 }
 
 #horiseon-marketing-agency {
-    display: inline-block;
     height: max-content;
 }
 
@@ -119,9 +124,20 @@ a {
     text-decoration: none;
 }
 
+/* changes color of a link that has been clicked on */
+a:visited {
+    color: var(--matisse);
+}
+
+/* makes links slightly opaque when cursor is over them */
+a:hover {
+    opacity: 0.75;
+}
+
 h2 {
     font-size: 30px;
     padding-left: 2.5%;
+    padding-right: 1.5%;
     line-height: 1.5;
 }
 
@@ -135,4 +151,5 @@ h4 {
 
 footer {
     text-align: center;
+    padding: 15px;
 }
